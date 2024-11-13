@@ -1,0 +1,70 @@
+.maindiv {
+    display: flex;
+    flex-direction: row; 
+   
+    margin-top: 13rem;
+     
+}
+
+.imgconnect {
+    width: 590px;
+    height: 400px;
+    border-radius: 30px;
+    margin-left: 8rem; 
+}
+.imgconnect {
+    width: 590px;
+    height: 400px;
+    border-radius: 30px;
+    margin-left: 8rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imgconnect:hover {
+    transform: translateY(-10px); /* Move the image up a little */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px; /* Add a shadow to the image */
+}
+
+
+.intro {
+    font-family: serif;
+    color: rgb(224, 8, 22);
+    margin-left: 90px;
+}
+
+.name {
+    font-size: 30px;
+    font-family: serif;
+    color: rgb(230, 14, 14);
+    
+    margin-left: 90px;
+}
+
+
+.para {
+    font-size: 18px;
+    font-family: serif;
+    color: rgb(81, 79, 79);
+    max-width: 600px;
+    margin-left: 90px;
+}
+
+button {
+    position: absolute;
+    top: 38rem;
+    border: none;
+    background-color: rgb(249, 70, 5);
+    font-size: 15px;
+    left: 18rem;
+    height: 35px;
+    color: white;
+    border-radius: 50%;
+}
+
+body{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.zKZE5ragNQSvnQqX4XeeaQHaEo&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

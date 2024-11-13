@@ -1,0 +1,55 @@
+.certifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.headingofcerti {
+  font-family: serif;
+  text-align: center;
+  margin-top: 23px;
+  font-size: 35px;
+  color: #565454;
+}
+
+.certicard {
+  width: 300px;
+  height: 400px; /* Fixed height for the card to ensure uniform size */
+  border: 1px solid #f4f2f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.imm {
+  width: 95%;  /* Make image take 90% width of card */
+  height: 190px; /* Reduced and fixed height for images */
+  object-fit: contain; /* Keeps the full image visible */
+  margin-top: 10px; /* Adds some space above the image */
+}
+
+.card-body {
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-body h4 {
+  font-size: 0.9rem;
+  color: #565454;
+  font-family: serif;
+  margin-top: 10px;
+}

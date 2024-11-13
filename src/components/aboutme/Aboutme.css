@@ -1,0 +1,165 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+  }
+  .topheading{
+    font-family: serif;
+    font-size: 39px;
+    margin-left: 24rem;
+    margin-top: 80px;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+.about{
+    color: rgb(81, 80, 80);
+    font-family: serif;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-right: 190px;
+    margin-top: 20px;
+}
+ 
+  .titleofskill {
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #3e3e3e;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  .heading {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    width: 230px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 3rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 12px 24px;
+  }
+  
+  .card img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    transition: transform 0.3s ease;
+  }
+
+  
+  .card-body h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .webimg{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-left: 37.5rem;
+    position: absolute;
+    top: 30rem;
+    
+  }
+
+
+.headingofps{
+  font-family: 'Georgia', serif;
+    font-size: 22px;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 100px;
+    font-weight: bold;
+    
+}
+
+.skillname{
+  font-size: 20px;
+}
+
+.projects{
+  font-family: 'Georgia', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.projcontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 0px;
+  margin-top: 20px;
+  justify-items: center; 
+  grid-template-rows: auto; 
+}
+
+.projcard {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  height: auto;
+  width: 40rem; 
+}
+
+.projcard:hover {
+  transform: translateY(-10px); 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 12px 24px; 
+}
+
+.projcard p {
+  font-size: 16px;
+  color: rgb(81, 80, 80);
+  font-family: serif;
+  margin-top: 10px;
+}
+
+.projects {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+.titleofproj{
+  font-family: serif;
+  font-weight: 600;
+}
+
+
+
+
